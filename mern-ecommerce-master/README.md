@@ -23,22 +23,6 @@ This application is deployed on Vercel Please check it out :smile: [here](https:
 
 See admin dashboard [demo](https://mernstore-bucket.s3.us-east-2.amazonaws.com/admin.mp4)
 
-## Docker Guide
-
-To run this project locally you can use docker compose provided in the repository. Here is a guide on how to run this project locally using docker compose.
-
-Clone the repository
-```
-git clone https://github.com/mohamedsamara/mern-ecommerce.git
-```
-
-Edit the dockercompose.yml file and update the the values for MONGO_URI and JWT_SECRET
-
-Then simply start the docker compose:
-
-```
-docker-compose build
-docker-compose up
 ```
 
 ## Database Seed
@@ -52,16 +36,7 @@ docker-compose up
 npm run seed:db [email-***@****.com] [password-******] // This is just an example.
 ```
 
-## Install
 
-`npm install` in the project root will install dependencies in both `client` and `server`. [See package.json](package.json)
-
-Some basic Git commands are:
-
-```
-git clone https://github.com/mohamedsamara/mern-ecommerce.git
-cd project
-npm install
 ```
 
 ## ENV
